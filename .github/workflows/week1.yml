@@ -22,7 +22,7 @@ jobs:
           password: ${{secrets.DOCKERHUB_TOKEN}}
 
       - name: Build Docker image
-        run: docker build -t ${{secrets.DOCKERHUB_USERNAME}}/train-awwwards:latest .
+        run: docker build -t ${{secrets.DOCKERHUB_USERNAME}}/train-awwwards:latest /Week1/
 
       - name: Push Docker Image
         run: docker push ${{secrets.DOCKERHUB_USERNAME}}/train-awwwards:latest

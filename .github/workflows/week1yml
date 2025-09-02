@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "week1/**"
+      - "Week1/**"
 
 jobs:
   docker:

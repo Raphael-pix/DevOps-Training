@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: awwwards
+  name: awwwards
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: awwwards
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: awwwards
+    spec:
+      containers:
+        - image: raphkaira/train-awwwards
+          name: train-awwwards
+          ports:
+            - containerPort: 80
+          resources: {}
+status: {}

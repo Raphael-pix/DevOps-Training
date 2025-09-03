@@ -106,9 +106,8 @@ const Features = () => (
           Into the Metagame Layer
         </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-          Immerse yourself in a rich and expanding universe where a vibrant
-          array of products converge into an interconnected overlay experience
-          on your world.
+          Explore a vast and growing universe where a dynamic range of products
+          unite to create an interconnected, overlaid experience on your world.
         </p>
       </div>
 
